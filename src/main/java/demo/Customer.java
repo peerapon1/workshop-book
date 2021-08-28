@@ -2,18 +2,21 @@ package demo;
 
 public class Customer {
     private int id;
-    private  String name;
+    private String name;
 
-    public Customer() {
-
-    }
     public int getId() {
         return id;
     }
-    public int SetId(int id) {
-        return this.id = id;
+
+    public void setId(int id) {
+        this.id = id;
     }
+
     public String getName() {
-        return this.name = name;
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
