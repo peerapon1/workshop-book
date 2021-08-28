@@ -9,4 +9,8 @@ public class MyService {
         int number = random.nextInt(10);
         return data + number;
     }
+
+    public void setRandom(Random random) {
+        this.random = random;
+    }
 }
